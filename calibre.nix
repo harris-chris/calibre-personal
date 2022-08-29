@@ -26,11 +26,11 @@
 
 stdenv.mkDerivation rec {
   pname = "calibre";
-  version = "5.42.0";
+  version = "5.44.0";
 
   src = fetchurl {
     url = "https://download.calibre-ebook.com/${version}/${pname}-${version}.tar.xz";
-    hash = "sha256-pob9GZl3Wiky5aMGGvcNQdDrKh19bo+n5ihdS45X+Vg=";
+    hash = "sha256-b/qj6v02okNV5ZV/D4ONttttNFbPoXy00Tn9lOuviOw=";
   };
 
   # https://sources.debian.org/patches/calibre/${version}+dfsg-1
